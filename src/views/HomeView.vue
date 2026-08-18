@@ -562,7 +562,6 @@ const filterRestaurants = (restaurants) => {
       return (
         cuisineMatches &&
         underBudget &&
-        groupBudgetFits &&
         withinDistance &&
         serviceMatches &&
         ratingMatches
